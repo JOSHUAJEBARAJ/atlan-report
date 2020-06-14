@@ -20,4 +20,8 @@ spec:
           env:
             - name: DATABASE_URI
               value: mongodb://mongo:27017
+            - name: MASTER_KEY	
+              value: 123456789
+            - name: APP_ID
+              value: 123
           imagePullPolicy: Always
